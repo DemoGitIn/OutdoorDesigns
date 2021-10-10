@@ -60,6 +60,7 @@ select:-webkit-autofill:focus {
 .form__send {
   display: flex;
   justify-content: end;
+  overflow: hidden;
 }
 
 .form__send input {
