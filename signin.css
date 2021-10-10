@@ -1,0 +1,87 @@
+body {
+  background: white;
+  min-height: calc(100vh-100px);
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.nav {
+  background: rgb(22, 26, 29);
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.logo p a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-icon {
+  padding-left: 10px;
+  width: 100px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form {
+  color: black;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  margin: 150px;
+}
+
+.form__send {
+  display: flex;
+  justify-content: end;
+}
+
+.form__send input {
+  border-radius: 40px;
+  margin: 30px;
+  border: none;
+  font-size: 1.7rem;
+  width: 9rem;
+  height: 4rem;
+  background: rgb(49, 42, 42);
+  color: white;
+}
+
+.form__item p a {
+  color: black;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .form {
+    margin: 20% 0% 0% 10%;
+  }
+  .form h1 {
+    font-size: 2.5rem;
+  }
+}

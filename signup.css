@@ -1,0 +1,148 @@
+
+body {
+  background: rgb(22, 26, 29);
+  min-height: calc(100vh-100px);
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.nav {
+  background: rgb(22, 26, 29);
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.logo p a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-icon {
+  padding-left: 10px;
+  width: 100px;
+}
+
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.form {
+  color: black;
+  background: white;
+  width: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -moz-border-radius: 10%;
+  -webkit-border-radius: 10%;
+  margin: 150px;
+}
+
+.form__box {
+  padding-left: 10%;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__send {
+  display: flex;
+  justify-content: end;
+}
+
+.form__send input {
+  border-radius: 40px;
+  margin: 30px;
+  border: none;
+  font-size: 1.7rem;
+  width: 9rem;
+  height: 4rem;
+  background: black;
+  color: white;
+}
+
+.form__item {
+  display: flex;
+  justify-content: center;
+}
+
+.form__item p {
+  font-size: 1.2rem;
+  margin: 0% 0% 5% 0%;
+}
+
+.form__item p a {
+  color: black;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .form {
+    color: black;
+    background: white;
+    width: 100%;
+    display: grid;
+    border-radius: 10%;
+    margin: 20% 20% 5% 20%;
+  }
+
+  .form__box input {
+    width: 80%;
+  }
+
+  .form__box p {
+    margin: 0%;
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    margin: 0%;
+    padding: 5% 0% 5% 0%;
+    font-size: 2.5rem;
+  }
+
+  .form__send input {
+    border-radius: 40px;
+    margin: 0% 10% 0% 0%;
+  }
+
+  .form__item {
+    font-size: 0.7rem;
+    margin: 0%;
+  }
+}
