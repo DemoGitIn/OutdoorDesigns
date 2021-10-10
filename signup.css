@@ -88,6 +88,7 @@ h1 {
   height: 4rem;
   background: black;
   color: white;
+  float: right;
 }
 
 .form__item {

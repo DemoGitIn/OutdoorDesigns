@@ -435,7 +435,7 @@
     display: block;
     flex-direction: column;
     transform: translateY(7%);
-    position: absolute;
+    position: fixed;
     z-index: 100;
   }
 

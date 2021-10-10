@@ -71,6 +71,7 @@ select:-webkit-autofill:focus {
   height: 4rem;
   background: rgb(49, 42, 42);
   color: white;
+  float: right;
 }
 
 .form__item p a {
