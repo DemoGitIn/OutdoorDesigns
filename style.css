@@ -117,14 +117,12 @@
   padding: 30px 10px 30px 10px;
 }
 
-.c-box{
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  border-radius: 8px;
+.c-box {
   display: flex;
   flex-direction: column;
 }
- .category__container-box {
+
+.category__container-box {
   position: relative;
   text-align: center;
   color: white;
@@ -140,7 +138,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} 
+}
 
 .category__container-box img {
   width: 100%;
@@ -200,29 +198,6 @@
   margin-bottom: 5%;
 }
 
-.gallery .gallery__container-box {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-size: 2.5vw;
-  font-weight: bold;
- 
-}
-
-.gallery__container-box .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} 
-.g-box{
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  
-}
 .gallery p {
   display: flex;
   justify-content: center;
@@ -235,6 +210,26 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   padding: 30px 10px 30px 10px;
 }
+
+.gallery__container-box {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.gallery__container-box .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .g-box {
+  display: flex;
+  flex-direction: column;
+} */
 
 .gallery__container img {
   width: 100%;
@@ -383,7 +378,7 @@
 @media (min-width: 0px) and (max-width: 600px) {
   .nav {
     display: flex;
-    height: 80px;
+    height: 100px;
   }
 
   .logo {
@@ -425,16 +420,16 @@
   .activities-container {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
-.category__container-box {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-size: 4vw;
-  text-transform: uppercase;
-  font-weight: bold;
-  width: 100%;
-  height: 30vh;
-}
+  .category__container-box {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    height: 30vh;
+  }
 
   /* .card {
     grid-template-columns: 1fr;
@@ -459,13 +454,13 @@
 
   .menu-list li {
     list-style: none;
-    margin-bottom: 16%;
+    margin-bottom: 14%;
   }
 
   .menu-list li:first-child {
     margin-top: 10%;
   }
-  
+
   .check-box {
     cursor: pointer;
     display: inline-flex;
