@@ -226,10 +226,9 @@
   transform: translate(-50%, -50%);
 }
 
-/* .g-box {
+.g-box {
   display: flex;
-  flex-direction: column;
-} */
+} 
 
 .gallery__container img {
   width: 100%;
@@ -475,7 +474,7 @@
     display: flex;
     height: 80px;
   }
-  
+
   .gallery .gallery__container-box {
     font-size: 3vw;
   }
