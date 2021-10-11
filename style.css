@@ -378,7 +378,7 @@
 @media (min-width: 0px) and (max-width: 600px) {
   .nav {
     display: flex;
-    height: 100px;
+    height: 80px;
   }
 
   .logo {
