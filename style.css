@@ -483,7 +483,7 @@
     transition: all 2s;
     display: block;
     flex-direction: column;
-    transform: translateY(6%);
+    transform: translateY(7%);
     position: fixed;
     z-index: 100;
   }
