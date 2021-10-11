@@ -118,7 +118,7 @@ h1 {
     width: 100%;
     display: grid;
     border-radius: 10%;
-    margin: 10% 15% 0% 15%;
+    margin: 10% 20% 0% 15%;
   }
 
   .form__box input {
@@ -135,7 +135,10 @@ h1 {
     padding: 5% 0% 5% 0%;
     font-size: 2.5rem;
   }
-
+.form__send {
+  display: flex;
+  justify-content: end;
+}
   .form__send input {
     border-radius: 40px;
     margin: 0% 10% 0% 0%;
@@ -145,4 +148,5 @@ h1 {
     font-size: 0.7rem;
     margin: 0%;
   }
+  
 }
