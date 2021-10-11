@@ -471,6 +471,11 @@
 }
 
 @media (max-width: 700px) {
+  .nav {
+    display: flex;
+    height: 80px;
+  }
+  
   .gallery .gallery__container-box {
     font-size: 3vw;
   }
@@ -485,6 +490,11 @@
 }
 
 @media (max-width: 960px) {
+  .nav {
+    display: flex;
+    height: 80px;
+  }
+
   .footer-container {
     width: 100%;
     margin: 0;
