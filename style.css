@@ -502,7 +502,7 @@
     transition: all 2s;
     display: block;
     flex-direction: column;
-    transform: translateY(9%);
+    transform: translateY(5%);
     position: fixed;
     z-index: 100;
   }
