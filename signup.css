@@ -78,6 +78,7 @@ h1 {
   display: flex;
   justify-content: end;
   overflow: hidden;
+  clear:both;
 }
 
 .form__send input {
