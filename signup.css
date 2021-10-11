@@ -77,8 +77,6 @@ h1 {
 .form__send {
   display: flex;
   justify-content: end;
-  overflow: hidden;
-  clear:both;
 }
 
 .form__send input {
@@ -90,7 +88,6 @@ h1 {
   height: 4rem;
   background: black;
   color: white;
-  float: right;
 }
 
 .form__item {

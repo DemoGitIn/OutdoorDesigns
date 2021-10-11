@@ -60,8 +60,6 @@ select:-webkit-autofill:focus {
 .form__send {
   display: flex;
   justify-content: end;
-  overflow: hidden;
-  clear:both;
 }
 
 .form__send input {
@@ -73,7 +71,6 @@ select:-webkit-autofill:focus {
   height: 4rem;
   background: rgb(49, 42, 42);
   color: white;
-  float: right;
 }
 
 .form__item p a {

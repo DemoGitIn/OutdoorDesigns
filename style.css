@@ -117,7 +117,7 @@
   padding: 30px 10px 30px 10px;
 }
 
-.category__container-box {
+/* .category__container-box {
   position: relative;
   text-align: center;
   color: white;
@@ -131,7 +131,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .category__container-box img {
   width: 100%;
@@ -191,7 +191,7 @@
   margin-bottom: 5%;
 }
 
-.gallery .gallery__container-box {
+/* .gallery .gallery__container-box {
   position: relative;
   text-align: center;
   color: white;
@@ -204,7 +204,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .gallery p {
   display: flex;
