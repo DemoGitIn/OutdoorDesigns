@@ -200,12 +200,13 @@
   margin-bottom: 5%;
 }
 
-/* .gallery .gallery__container-box {
+.gallery .gallery__container-box {
   position: relative;
   text-align: center;
   color: white;
   font-size: 2.5vw;
   font-weight: bold;
+ 
 }
 
 .gallery__container-box .text {
@@ -213,8 +214,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-} */
-
+} 
+.g-box{
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  
+}
 .gallery p {
   display: flex;
   justify-content: center;
